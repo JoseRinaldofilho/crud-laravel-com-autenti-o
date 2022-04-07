@@ -95,7 +95,7 @@ class ProductController extends Controller
     }
 
     /**
-     * @param int $id
+     * @param int $id tras o id
      * @return \Illuminate\Http\RedirectResponse
      * @throws \Exception
      */
