@@ -62,8 +62,14 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## cria projeto
 1 cria o banco
 2 php artisan make:model Produto -m( ja vem com migratios)
-3 inserir na migration seus campos exemplo $table->string('nome');
-4   
+3 inserir na migration seus campos exemplo $table->string('nome'); double(8,2), integer('nome')
+4 php artisan migrate 
+5  Composer require ibex/crud-generator --dev
+6  php artisan vendor:publish --tag=crud
+7 php artisan make:crud product yes
+8 
+
+
 
 
 
