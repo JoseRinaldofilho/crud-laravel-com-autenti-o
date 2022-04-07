@@ -67,7 +67,11 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 5  Composer require ibex/crud-generator --dev
 6  php artisan vendor:publish --tag=crud
 7 php artisan make:crud product yes
-8 
+8 Route::resource('product', ProductController::class);
+9 Composer require laravel/un
+10 php artisan vendor ui bootstrap --auth |yes| npm install && npm run dev
+11 php artisan serve 
+ muito obrigado  
 
 
 
